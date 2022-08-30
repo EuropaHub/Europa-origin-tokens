@@ -10,7 +10,7 @@ Approved L1 assets bridged to Europa: ```Origin``` token addresses:
 - RUBY : ```0x2B4e4899b53E8b7958c4591a6d02f9C0b5c50F8f```
 
 # Dapp Chain Owners
-If you would to include any of the above assets on your Skale chain, please follow the instructions below. Approval is not required from the Europa DAO to bridge Europa Origin tokens to your Skale chain. 
+If you would like to include any of the above assets on your Skale chain, please follow the instructions below. Approval is not required from the Europa DAO to bridge Europa Origin tokens to your Skale chain. 
 - 1: use private key with ```CHAIN_CONNECTOR_ROLE``` to connect skale chains using method ```connectSchain``` with input ```elated-tan-skat``` on token linker contract ```0xD2aAA00800000000000000000000000000000000``` : predeployed across all Skale chains. Please check block explorer for successful tx. 
 - 2: deploy skaleERC20 token with the same ```symbol```, ```token name```, and ```decimals``` as indicated on [Europa](https://elated-tan-skat.explorer.mainnet.skalenodes.com/tokens). After deployement, you should only refer to this token contract address as the ```target_token``` address.
 - 3: assign newly deployed token contract address ```MINTER_ROLE``` and ```BURNER_ROLE``` to the erc20 token manager contract ```0xD2aAA00500000000000000000000000000000000``` : predeployed across all skale chains, however please double check your erc20 token manager contract address by visiting the token linker contract on your block explorer and use method ```viewTokenManagers``` with input ```1```. Here is an example on Europa: [blockexplorer](https://elated-tan-skat.explorer.mainnet.skalenodes.com/address/0xD2aAA00800000000000000000000000000000000/read-proxy)
