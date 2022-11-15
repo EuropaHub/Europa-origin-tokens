@@ -1,4 +1,5 @@
 # Europa-Tokens
+## ```Origin``` Token Addresses 
 Approved L1 assets bridged to Europa: ```Origin``` token addresses: 
 - DAI : ```0xD05C4be5f3be302d376518c9492EC0147Fa5A718```
 - USDT : ```0x1c0491E3396AD6a35f061c62387a95d7218FC515```
@@ -9,23 +10,23 @@ Approved L1 assets bridged to Europa: ```Origin``` token addresses:
 - SKL : ```0xE0595a049d02b7674572b0d59cd4880Db60EDC50```
 - RUBY : ```0x2B4e4899b53E8b7958c4591a6d02f9C0b5c50F8f```
 
-## Wrapped ```Origin``` Token Addresses 
+## ```Wrapped Origin``` Token Addresses 
 The addresses below are required for ```s2s``` transfers
 
-- DAI : ```coming soon```
-- USDT : ```coming soon```
-- USDP : ```coming soon```
-- USDC : ```coming soon```
+- wDAI : ```0x9E7563B0D51F9B6dFB1917F97D29D50804300d28```
+- wUSDT : ```0x42dDeBDa2195FaEDAEC1cf24c19B42da1c881feB```
+- wUSDP : ```0x91E87e460b19F7aD35e983b120bD4aAD5446d319```
+- wUSDC : ```0x1c566a47e1baC535Ca616373146e3BE024F88Aa4```
 - WETH : ```0xa5274efA35EbeFF47C1510529D9a8812F95F5735```
-- WBTC : ```coming soon```
-- SKL : ```coming soon```
-- RUBY : ```coming soon```
+- wWBTC : ```0x497C476bcABB2F7D50afF99ca3Ae9354451Ff7d0```
+- wSKL : ```0xD162bB5c75FE99144295b03510bAb2DF99617440```
+- wRUBY : ```0x31D3EDCfFd62C7350e02045ED39F0FE2D0598A86```
 
 
 # Dapp Chain Owners
 If you would like to include any of the above assets on your Skale chain, please follow the instructions below. Approval is not required from the Europa DAO to bridge Europa Origin tokens to your Skale chain. 
 - 1: use private key with ```CHAIN_CONNECTOR_ROLE``` to connect skale chains using method ```connectSchain``` with input ```elated-tan-skat``` on token linker contract ```0xD2aAA00800000000000000000000000000000000``` : predeployed across all Skale chains. Please check block explorer for successful tx. 
-- 2: deploy skaleERC20 token with the same ```symbol```, ```token name```, and ```decimals``` as indicated on [Europa](https://elated-tan-skat.explorer.mainnet.skalenodes.com/tokens). After deployement, you should only refer to this token contract address as the ```target_token``` address.
+- 2: deploy skaleERC20 token with the same ```symbol``` as indicated above under the Origin Token Addresses, for the```token name``` use the origin chain name aka ```Europa``` with the ```symbol``` ie: ```Europa USDP``` , and with the same ```decimals``` as indicated on [Europa](https://elated-tan-skat.explorer.mainnet.skalenodes.com/tokens).  After deployement, you should only refer to this token contract address as the ```target_token``` address.
 - 3: assign newly deployed token contract address ```MINTER_ROLE``` and ```BURNER_ROLE``` to the erc20 token manager contract ```0xD2aAA00500000000000000000000000000000000``` : predeployed across all skale chains, however please double check your erc20 token manager contract address by visiting the token linker contract on your block explorer and use method ```viewTokenManagers``` with input ```1```. Here is an example on Europa: [blockexplorer](https://elated-tan-skat.explorer.mainnet.skalenodes.com/address/0xD2aAA00800000000000000000000000000000000/read-proxy)
 - 4: use method ```addERC20TokenByOwner``` with input schain ```elated-tan-skat``` , Europa ```Wrapped-Origin``` token address, skaleERC20 ```deployed_contract_address``` on token manager contract. Please check block explorer for successful tx.
 
