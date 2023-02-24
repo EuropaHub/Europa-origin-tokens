@@ -38,7 +38,7 @@ The final step is to transfer the Europa ```Wrapped-Origin``` token to your Skal
 - use any private key holding Europa assets.
 - 1: ```Transfer to target``` : erc20 token manager contract ```0xD2aAA00500000000000000000000000000000000```with method ```transferToSchainERC20``` and input your Skale ```chain_name```, ```Wrapped_Origin_Token_Address```, and the ```amount```. The token_address must match the ```Wrapped_Origin_Token_Address``` on Europa.
 
-## Transfer target tokens to Origin chain
+## Transfer Target tokens to Origin chain
 - rpc: ```https://mainnet.skalenodes.com/v1/your-skale-chain-name``` connect to the Dapp chain
 - use any private key holding Dapp Chain assets.
 - 1: ```Transfer to origin``` : : erc20 token manager contract ```0xD2aAA00500000000000000000000000000000000```with method ```transferToSchainERC20``` and input ```elated-tan-skat```, ```Wrapped_Origin_token_address```, and the ```amount```. The token_address must match the ```Wrapped_Origin_Token_Address``` on Europa.
