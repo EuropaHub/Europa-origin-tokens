@@ -9,6 +9,7 @@ Approved L1 assets bridged to Europa: ```Origin``` token addresses:
 - WBTC : ```0xcb011E86DF014a46F4e3AC3F3cbB114A4EB80870```
 - SKL : ```0xE0595a049d02b7674572b0d59cd4880Db60EDC50```
 - RUBY : ```0x2B4e4899b53E8b7958c4591a6d02f9C0b5c50F8f```
+- HMT : ```0xBE3530a3eDf9472693065041B8c9155C7FeCB8e5```
 
 ## ```Wrapped Origin``` Token Addresses 
 The addresses below are required for ```s2s``` transfers
@@ -21,6 +22,7 @@ The addresses below are required for ```s2s``` transfers
 - wWBTC : ```0x497C476bcABB2F7D50afF99ca3Ae9354451Ff7d0```
 - wSKL : ```0xD162bB5c75FE99144295b03510bAb2DF99617440```
 - wRUBY : ```0x31D3EDCfFd62C7350e02045ED39F0FE2D0598A86```
+- wHMT : ```0x06104018340BB547803F5410174d9B68475e6769```
 
 
 # Dapp Chain Owners
