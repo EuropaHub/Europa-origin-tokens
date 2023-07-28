@@ -1,5 +1,5 @@
 # Skale ecosystem 
-- 1. Connect Skale chains to enable cross chain transfer : Use Skale Admin UI (link)[https://github.com/skalenetwork/admin-ui]
+1. Connect Skale chains to enable cross chain transfer : Use Skale Admin UI [https://github.com/skalenetwork/admin-ui]
 
 # Europa-Tokens
 ## ```Origin``` Token Addresses 
