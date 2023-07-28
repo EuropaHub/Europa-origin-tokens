@@ -1,3 +1,6 @@
+# Skale ecosystem 
+- 1. Connect Skale chains to enable cross chain transfer : Use Skale Admin UI (link)[https://github.com/skalenetwork/admin-ui]
+
 # Europa-Tokens
 ## ```Origin``` Token Addresses 
 Approved L1 assets bridged to Europa: ```Origin``` token addresses: 
@@ -11,6 +14,7 @@ Approved L1 assets bridged to Europa: ```Origin``` token addresses:
 - RUBY : ```0x2B4e4899b53E8b7958c4591a6d02f9C0b5c50F8f```
 - HMT : ```0xBE3530a3eDf9472693065041B8c9155C7FeCB8e5```
 - PROSPECT : ```0xA30cA600b8E722E2513B7738493F410a6Ae4a373```
+- EXD : ```0xCfEBA92BD362B2F76fC30a89C433DE50a1D62BcA```
 
 ## ```Wrapped Origin``` Token Addresses 
 The addresses below are required for ```s2s``` transfers
@@ -25,6 +29,7 @@ The addresses below are required for ```s2s``` transfers
 - wRUBY : ```0x31D3EDCfFd62C7350e02045ED39F0FE2D0598A86```
 - wHMT : ```0x06104018340BB547803F5410174d9B68475e6769```
 - wPROSPECT : ```0x96eB0c03D98214D4154c354b5b55FF7F6d94DFac```
+- wEXD : ```0x0B8FAa4373978E36E5F4a6e7041D4f08dD1CAB95```
 
 
 # Dapp Chain Owners
